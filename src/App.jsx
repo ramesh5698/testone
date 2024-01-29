@@ -1,6 +1,6 @@
 // 
 import React, { Component } from 'react'
-import Jobsterdev from './Componentone/Jobsterdev'
+// import Jobsterdev from './Componentone/Jobsterdev'
 // import "./Jobsterdev.css"
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import Projects from './Component3/Projects'
@@ -48,7 +48,7 @@ export default class App extends Component {
       {/* <Skil/> */}
       {/* <About/> */}
       {/* <Projects/> */}
-      <Jobsterdev/>
+      {/* <Jobsterdev/> */}
      {/* <Jopslogin/> */}
       </div>
     )

@@ -7,8 +7,8 @@ import image4 from "../assets/about-03f57d6e.svg"
 import image5 from "../assets/pexels-photo-326503.webp"
 import image6 from "../assets/pexels-photo-2148222.webp"
 import image7 from "../assets/pexels-photo-12883026.jpeg"
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import Aos from 'aos'
+// import 'aos/dist/aos.css'
 import Skil from './Skil'
 import About from './About'
 import Projects from './Projects'
@@ -38,9 +38,9 @@ export default function Linkdin() {
   }
 
 
-  useEffect(() => {
-    Aos.init({ duration: 2000 })
-  }, [])
+  // useEffect(() => {
+  //   Aos.init({ duration: 2000 })
+  // }, [])
 
 
   return (
