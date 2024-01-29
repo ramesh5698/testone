@@ -1,6 +1,5 @@
 // 
 import React, { Component } from 'react'
-import Jobsterdev from './Component6/Jobsterdev'
 // import "./Jobsterdev.css"
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import Projects from './Component3/Projects'
@@ -25,7 +24,6 @@ import Jobsterdev from './Component6/Jobsterdev'
 // import ReatHookFrm from './ComponentForm/ReatHookFrm'
 // import Linkdin from './Component3/Linkdin'
 // import Skil from './Component3/Skil'
-// import Jopslogin from "./Component6/Jopslogin"
 export default class App extends Component {
   render() {
     return (
@@ -48,7 +46,6 @@ export default class App extends Component {
       {/* <Skil/> */}
       {/* <About/> */}
       {/* <Projects/> */}
-      <Jobsterdev/>
      {/* <Jopslogin/> */}
 
       </div>
