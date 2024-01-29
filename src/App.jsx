@@ -14,7 +14,7 @@ import Jobsterdev from './Componentone/Jobsterdev'
 // import './ComponentForm/Rea.css'
 // import './Compo/Prop.css'
 // import './Component3/Menu.css'
-// import './Component3/Linkdin.css'
+import './Component3/Linkdin.css'
 // import LoginForm from './Component1/LoginForm'
 // import Brithcard from './Component/Component2/Brithcard'
 // import HandleFome from './ComponentForm/HandleFome'
@@ -23,7 +23,7 @@ import Jobsterdev from './Componentone/Jobsterdev'
 // import Prop from './Compo/Prop'
 // import { From } from './assets/Jobster Development_files/Form.jsx/From'
 // import ReatHookFrm from './ComponentForm/ReatHookFrm'
-// import Linkdin from './Component3/Linkdin'
+import Linkdin from './Component3/Linkdin'
 // import Skil from './Component3/Skil'
 export default class App extends Component {
   render() {
@@ -44,7 +44,7 @@ export default class App extends Component {
         {/* <From/> */}
         {/* <ReactHookForm/> */}
         {/* <ReatHookFrm/> */}
-        {/* <Linkdin/> */}
+        <Linkdin/>
       {/* <Skil/> */}
       {/* <About/> */}
       {/* <Projects/> */}
