@@ -13,7 +13,7 @@ import React, { Component } from 'react'
 // import './ComponentForm/Rea.css'
 // import './Compo/Prop.css'
 // import './Component3/Menu.css'
-// import './Component3/Linkdin.css'
+import './Component3/Linkdin.css'
 // import LoginForm from './Component1/LoginForm'
 // import Brithcard from './Component/Component2/Brithcard'
 // import HandleFome from './ComponentForm/HandleFome'
@@ -22,14 +22,13 @@ import React, { Component } from 'react'
 // import Prop from './Compo/Prop'
 // import { From } from './assets/Jobster Development_files/Form.jsx/From'
 // import ReatHookFrm from './ComponentForm/ReatHookFrm'
-// import Linkdin from './Component3/Linkdin'
+import Linkdin from './Component3/Linkdin'
 // import Skil from './Component3/Skil'
 export default class App extends Component {
   render() {
     return (
       <div>
-        asdjsahdsaj
-        <h1>sjdgsdghswg</h1>
+        
         {/* <h1>wellcom here</h1> */}
         {/* <Checkapi/> */}
          {/* <LoginForm/> */}
@@ -44,12 +43,11 @@ export default class App extends Component {
         {/* <From/> */}
         {/* <ReactHookForm/> */}
         {/* <ReatHookFrm/> */}
-        {/* <Linkdin/> */}
+        <Linkdin/>
       {/* <Skil/> */}
       {/* <About/> */}
       {/* <Projects/> */}
      {/* <Jopslogin/> */}
-Arubnjhddhh
       </div>
     )
   }
