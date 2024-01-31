@@ -150,7 +150,6 @@ main{
     align-items: center;
     flex-wrap: wrap;
     padding: 50px;
-    /* background-color: #292929; */
 }
 
 
@@ -228,18 +227,27 @@ main{
         padding: 10px 12px;
     }
     .about{
-        width: 260px;
+        width: 280px;
         padding: 40px 40px;
+    }
+    .con1-1,.art{
+        width: 350px;
     }
    
     .mg9{
-       width: 300px;
+       width: 280px;
+    }
+    .con-1{
+        width: 300px;
     }
     .con{
-        width: 360px;
+        width: 300px;
+    }
+    .con2{
+        width: 300px;
     }
     .conpic{
-        width: 200px;
+        width: 300px;
         
     }
     .j{
@@ -252,18 +260,13 @@ main{
         margin-top: 40px;
         margin-bottom: 10px;
     }
-    /* .con2-section{
-        width: 350px;
-    } */
-    /* .h3{
-        width: 150px;
-    } */
+
     .about{
         width: 280px;
     }
-    .main{
+    /* .main{
         width: 320px;
-    }
+    } */
     .h3{
         text-align: center;
     }
