@@ -14,14 +14,14 @@ span{
     color: #1f1f1f;
     /* background-color: blue; */
 }
-li{
+.link{
     list-style: none;
     display: inline-block;
     font-weight: 800;
     color: #1f1f1f;
 }
 
-a{
+.link{
     text-decoration: none;
     color: #1f1f1f;
     padding: 10px 25px;
@@ -46,10 +46,13 @@ a:hover{
     flex-wrap: wrap;
     align-items: center;
     padding: 20px;
+    /* background-color: aqua; */
+    background-color:rgb(201, 255, 239);
+
 }
 .mg{
-    width: 500px;
-    padding: 30px;
+    width: 400px;
+    /* padding: 30px; */
 }
 .h1{
     font-size: 65px;
@@ -76,18 +79,16 @@ header,section{
     /* background-color:rgb(255, 190, 130); */
 }
 main{
-    background-color: #f8f8f8;
+    /* background-color: #f80606; */
     padding: 20px;
+    /* background-color: red; */
 }
-.main{
-    /* background-color: hotpink; */
-    padding: 50px;
-}
+
 .c{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+   /* background-color: aquamarine; */
     /* height: 50px; */
 }
 .about{
@@ -98,10 +99,9 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    /* background-color: rgb(144, 144, 255); */
 }
 .hh{
-    /* padding: 20px;
-    margin: 30px; */
     text-align: center;
     color: rgb(68, 105, 93);
 }
@@ -139,13 +139,10 @@ main{
     width: 400px;
 
 }
-.k{
-    background-color: rgb(255, 255, 255);
 
-}
 
 .mg9{
-    width: 500px;
+    width: 400px;
 }
 .con{
     display: flex;
@@ -153,6 +150,7 @@ main{
     align-items: center;
     flex-wrap: wrap;
     padding: 50px;
+    /* background-color: #292929; */
 }
 
 
@@ -202,7 +200,7 @@ main{
 }
 .hhh{
     padding: 20px;
-    margin: 30px;
+    /* margin: 30px; */
     /* margin-top: 50px; */
     text-align: center;
     /* color: rgb(73, 73, 73); */
@@ -211,4 +209,86 @@ main{
 }
 .art{
     background-color: rgb(248, 248, 248);
+}
+@media only screen and (max-width:600px) {
+    .con1-1{
+        width: 250px;
+    }
+    .mg{
+        width: 200px;
+        margin: 30px;
+    }
+    .mg5{
+        width: 290px;
+    }
+    /* .main-con{
+        width: 250px;
+    } */
+    .link{
+        padding: 10px 12px;
+    }
+    .about{
+        width: 260px;
+        padding: 40px 40px;
+    }
+   
+    .mg9{
+       width: 300px;
+    }
+    .con{
+        width: 360px;
+    }
+    .conpic{
+        width: 200px;
+        
+    }
+    .j{
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .h1{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    /* .con2-section{
+        width: 350px;
+    } */
+    /* .h3{
+        width: 150px;
+    } */
+    .about{
+        width: 280px;
+    }
+    .main{
+        width: 320px;
+    }
+    .h3{
+        text-align: center;
+    }
+    .p3,.h0,.p2,.h3{
+        width: 300px;
+    }
+    .navbar{
+        height: 120px;
+    }
+    .nav{
+        height: 50px;
+    }
+    .c1{
+        padding: 30px;
+    }
+    .hh{
+        width: 220px;
+    }
+    .p1{
+        width: 220px;
+    }
+    .c1{
+        width: 270px;
+        margin: 0px;
+        padding: 0px;
+    }
+   
 }

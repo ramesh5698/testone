@@ -7,69 +7,80 @@ import image4 from "../assets/about-03f57d6e.svg"
 import image5 from "../assets/pexels-photo-326503.webp"
 import image6 from "../assets/pexels-photo-2148222.webp"
 import image7 from "../assets/pexels-photo-12883026.jpeg"
-// import Aos from 'aos'
-// import 'aos/dist/aos.css'
-import Skil from './Skil'
-import About from './About'
-import Projects from './Projects'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
+// import Skil from "./Skil"
+// import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+// import Skil from './Skil'
+// import About from './About'
+// import Projects from './Projects'
+
 
 export default function Linkdin() {
 
-  const [home, sethome] = useState(true);
-  const [ab, setab] = useState(true);
-  const [sk, setsk] = useState(true);
+  // const [home, sethome] = useState(true);
+  // const [ab, setab] = useState(true);
+  // const [sk, setsk] = useState(true);
 
-  const hom = () => {
-    sethome(true);
-  }
-  const s = () => {
-    setab(true);
-    sethome(false);
-  }
-  const a = () => {
-    setsk(true);
-    sethome(false);
-    setab(false);
-  }
-  const p = () => {
-    setsk(false);
-    sethome(false);
-    setab(false);
-  }
+  // const hom = () => {
+  //   sethome(true);
+  // }
+  // const s = () => {
+  //   setab(true);
+  //   sethome(false);
+  // }
+  // const a = () => {
+  //   setsk(true);
+  //   sethome(false);
+  //   setab(false);
+  // }
+  // const p = () => {
+  //   setsk(false);
+  //   sethome(false);
+  //   setab(false);
+  // }
 
 
-  // useEffect(() => {
-  //   Aos.init({ duration: 2000 })
-  // }, [])
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
 
+  // const navigate=useNavigate()
+  // const nav=()=>{
+  //       navigate("/skill")
+  // }
 
   return (
-    <div>
-      {home ?
-      <div>
+    <div className='cc'>
+      {/* {home ? */}
+      {/* <div className='cc1'> */}
 
-      
-      <header>
-        <div className="navbar">
-          <div className="nav">
-            <h1 className='h'>Web<span>Dev</span></h1>
-          </div>
-          <div className="list">
-            <ul>
-              <li><a href="#" onClick={hom}>Home</a></li>
-              <li><a href="#"  onClick={s}>Skills</a></li>
-              <li><a href="#"  onClick={a}>About</a></li>
-              <li><a href="#" onClick={p}>Projects</a></li>
-            </ul>
-          </div>
-        </div>
-      </header>
+
+        <header>
+          <div className="navbar">
+            <div className="nav">
+              <h1 className='h'>Web<span>Dev</span></h1>
+            </div>
+            <div className="list">
+          
+          <ul>
+            <Link className='link' to="/">Home</Link>
+            <Link className='link' to="/skill">Skils</Link>
+            <Link className='link' to="/About">Aoute</Link>
+            <Link className='link' to="/project"> Projects</Link>
+          </ul>
+      </div>
+    </div>
+      </header >
       <section>
         <div className="con2-section">
           <div className="main-1" data-aos="fade-up">
             <h1 className='h1'> I'm Ramesh</h1>
             <h2 className='h3'>Front-End Developer</h2>
-            <h3>Turning Ideas Into Interactive Reality</h3>
+            <h3 className='j'>Turning Ideas Into Interactive Reality</h3>
           </div>
 
           <div className="img1" data-aos="fade-down">
@@ -109,7 +120,7 @@ export default function Linkdin() {
         </div>
       </main>
       <article className='k'>
-        `` <div className="con">
+           <div className="con">
           <div className="con1" data-aos="zoom-in">
             <img className="mg9" src={image4} alt="" /></div>
 
@@ -144,8 +155,8 @@ export default function Linkdin() {
           </div>
         </div>
       </article>
-      </div>
-      :ab ? <Skil/> : sk ? <About/> : <Projects/>}
-    </div>
+      {/* </div > */}
+    {/* // :ab ? <Skil/> : sk ? <About/> : <Projects/>} */ }
+    </div >
   )
 }
