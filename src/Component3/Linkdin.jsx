@@ -128,7 +128,7 @@ export default function Linkdin() {
             <h2 className='h3'>
               Code And Coffee
             </h2>
-            <hr />
+            <hr id='hw' />
             <p className='p2'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint maiores itaque doloribus asperiores dolorum quas voluptates distinctio, porro beatae quam provident libero animi totam, praesentium voluptatem corrupti dignissimos ipsum accusantium!</p>
           </div>
         </div>
