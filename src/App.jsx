@@ -21,24 +21,24 @@ import React, { Component } from 'react'
 // import Prop from './Compo/Prop'
 // import { From } from './assets/Jobster Development_files/Form.jsx/From'
 // import ReatHookFrm from './ComponentForm/ReatHookFrm'
-// import Projects from './Component3/Projects'
-// import About from './Component3/About'
-// import './Component3/Linkdin.css'
+import Projects from './Component3/Projects'
+import About from './Component3/About'
+import './Component3/Linkdin.css'
 import Skil from './Component3/Skil';
-// import Linkdin from './Component3/Linkdin'
-// import {
-//   createBrowserRouter,
-//   RouterProvider,
-//   Route,
-//   BrowserRouter,
-//   Routes,
-// } from "react-router-dom";
+import Linkdin from './Component3/Linkdin'
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  BrowserRouter,
+  Routes,
+} from "react-router-dom";
 export default class App extends Component {
   render() {
     return (
       <div>
       
-      {/* <BrowserRouter>
+      <BrowserRouter>
           <Routes>
           <Route path='/'  element={<Linkdin/>}></Route>
             <Route path='/skill'  element={<Skil/>}></Route>
@@ -49,7 +49,7 @@ export default class App extends Component {
 
 
 
-      </BrowserRouter> */}
+      </BrowserRouter>
 
 
 
@@ -71,7 +71,7 @@ export default class App extends Component {
         {/* <From/> */}
         {/* <ReactHookForm/> */}
         {/* <ReatHookFrm/> */}
-       <Skil/>
+       {/* <Skil/> */}
         
         
         {/* <Jobsterdev/> */}
