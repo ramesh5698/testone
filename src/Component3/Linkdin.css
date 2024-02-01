@@ -210,11 +210,11 @@ main{
 }
 @media only screen and (max-width:600px) {
     .con1-1{
-        width: 250px;
+        width: 300px;
     }
     .mg{
-        width: 200px;
-        margin: 30px;
+        width: 220px;
+        margin: 25px;
     }
     .mg5{
         width: 290px;
@@ -283,6 +283,8 @@ main{
     }
     .hh{
         width: 220px;
+        text-align: center;
+       
     }
     .p1{
         width: 220px;
