@@ -9,7 +9,7 @@ import image6 from "../assets/pexels-photo-2148222.webp"
 import image7 from "../assets/pexels-photo-12883026.jpeg"
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 // import { Link } from 'react-router-dom'
 // import { useNavigate } from 'react-router-dom'
 // import Skil from "./Skil"

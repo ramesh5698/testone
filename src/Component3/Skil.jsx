@@ -1,30 +1,37 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import "./Skil.css"
 import image1 from "../assets/images (2).png"
 import image2 from "../assets/download (2).png"
 import image3 from "../assets/download (3).png"
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 export default function Skil() {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+
   return (
     <div>
          <main>
         <h1 className='hh'>Tech stack</h1>
         <hr className='hr' />
-        <div className="main-con1">
-          <div className='about'>
+        <div className="main-con">
+          <div className='about' data-aos="zoom-in">
             <img className='hjr' src={image1} alt="" />
             <h2 className='h2'>
               HTML&CSS
             </h2>
             <p className='p1'>Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.</p>
           </div>
-          <div className='about'>
+          <div className='about' data-aos="zoom-in">
             <img className='hjr1' src={image2} alt="" />
             <h2 className='h2'>
               javascript
             </h2>
             <p className='p1'>Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality</p>
           </div>
-          <div className='about'>
+          <div className='about' data-aos="zoom-in">
             <img className='hjr' src={image3} alt="" />
             <h2 className='h2'>
               React

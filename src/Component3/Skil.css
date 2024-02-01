@@ -2,16 +2,15 @@ main{
     background-color: #f8f8f8;
     padding: 20px;
 }
-.main-con1{
-     display: grid;
-     grid-template-columns: auto auto auto;
-     gap: 20px;
-     justify-content: space-around;
-     align-items: center;
-    /* grid-row: auto; */
-     padding: 25px; 
-   
-     height: 300px;
+.about{
+    width: 350px;
+}
+.main-con{
+   display: flex;
+   justify-content:space-around ;
+   align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
 }
 .hh{
     padding: 20px;
@@ -51,4 +50,30 @@ main{
 .mg2{
     width: 400px;
 
+}
+@media only screen and (max-width:600px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .main-con{
+        width: 300px;
+    }
+    .main{
+        background-color: aqua;
+    }
+    .about{
+        width: 300px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    .hh{
+        width: 300px;
+        padding: 10px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .p1{
+        width: 230px;
+    }
 }
